@@ -1,0 +1,70 @@
+body{
+    background-image: url("img/bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+#principalDiv{
+    display: grid;
+    place-items: center;
+  
+    height: 50%;
+    width: 100%;
+}
+
+
+
+#inputDiv{
+    display: grid;
+    place-items: center;
+  
+    height: 50%;
+    width: 100%;  
+}
+
+#basicOperations{
+    display: grid;
+    place-items: flex;
+  
+    height: 10%;
+    width: 10%;  
+    
+}
+
+#squareAndMore{
+    display: grid;
+    place-items: flex;
+  
+    height: 10%;
+    width: 10%; 
+}
+
+#resultBox{
+    display: grid;
+    place-items: center;
+  
+    height: 50%;
+    width: 100%;  
+}
+
+#otherOpertations{
+    display: grid;
+    place-items: flex;
+  
+    height: 10%;
+    width: 10%; 
+}
+
+#logo{
+    display: grid;
+    place-items: center;
+  
+    height: 50%;
+    width: 100%;
+}
+
+.LMDV{
+    height: 70%;
+    width: 10%;
+}

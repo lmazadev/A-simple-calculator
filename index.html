@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/fav.ico">
+    <title>A simple calculator - by lmazadev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans">
+    <script src="componets.js"></script>
+    <style>
+    h1 {font-family: "Droid+Sans";
+    display: grid;
+    place-items: center;
+    color: #fff;
+    height: 50%;
+    width: 100%;
+    }
+    </style>
+</head>
+<body onload="userAlert()">
+    <h1>A simple calculator</h1>
+    <br>
+    <div id="principalDiv">
+        <div id="inputDiv">
+            <input class="inputOne" type="text" id="numberA">
+            <input class= "inputTwo" type="text" id="numberB">
+        </div>
+        <br><br>
+        <div  id="basicOperations">
+            <button onclick="applyAddition()">+</button>
+            <button onclick="applySubtraction()">-</button>
+            <button onclick="applyMultiplication()">x</button>
+            <button onclick="applyDivision()">÷</button>
+        </div>
+        <br><br>
+        <div id="squareAndMore">
+            <button onclick="applyExponentiation()">^</button>
+            <button onclick="applySquareRoot()">√</button>
+            <button onclick="getAbsoluteValue()">||</button>
+            <button onclick="getRandom()">⚄</button>
+        </div>
+        <br><br><br><br>
+        <div id="resultBox">
+            <input type="text" id="result">
+        </div>
+        <br>
+        <div id="otherOpertations">
+            <button onclick="applyRound()">Round</button>
+            <button onclick="applyRoundFloor()">Floor</button>
+            <button onclick="applyRoundCeil()">Ceil</button>
+        </div>
+    </div>
+    <br><br><br><br>
+    <div id="logo">
+        <img src="img/lmazadevw.png"  alt="lmazadev" class="LMDV">
+    </div>
+</body>
+</html>
